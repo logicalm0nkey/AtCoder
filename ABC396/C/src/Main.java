@@ -29,7 +29,7 @@ public class Main {
             // 白玉の価値を降順ソート（入力順は関係無いため）
             Collections.sort(wValues, (a, b) -> -a.compareTo(b));
 
-            int sum = 0;
+            long sum = 0;
             // 黒玉を足した個数
             int bSumCount = 0;
             int wSumCount = 0;
